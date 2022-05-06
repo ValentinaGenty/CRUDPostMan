@@ -15,7 +15,7 @@ import java.io.IOException;
 
 public class UserServlet extends HttpServlet {
 
-    private Dao userDao=new DaoImpl();
+    //private Dao userDao=new DaoImpl();
     /*
     This will take a simple GET request and respond with "Pong!" and status 202, indicating the request was accepted.
      */
@@ -36,7 +36,7 @@ public class UserServlet extends HttpServlet {
         }
     }
 
-    @Override
+   /* @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {
             ObjectMapper mapper = new ObjectMapper();
@@ -52,5 +52,5 @@ public class UserServlet extends HttpServlet {
             resp.getWriter().print("Something went wrong creating your profile!");
             System.out.println(ex.getLocalizedMessage());
         }
-    }
+    }*/
 }
