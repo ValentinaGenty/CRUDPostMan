@@ -9,9 +9,7 @@
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		version="2.5">
 
-	<listener>
-	<listener-class>servlets.DependencyLoaderListener</listener-class>
-	</listener>
+
 
 	<servlet>
 		<servlet-name>userServlet</servlet-name>
