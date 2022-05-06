@@ -1,6 +1,5 @@
 org\example\dao\DaoImpl.class
 org\example\dao\Dao.class
-servlets\DependencyLoaderListener.class
 org\example\dao\ConnectionFactory.class
 org\example\dao\DaoFactory.class
 servlets\UserServlet.class

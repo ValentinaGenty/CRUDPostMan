@@ -1,4 +1,4 @@
-/*package servlets;
+package servlets;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
@@ -13,4 +13,4 @@ public class DependencyLoaderListener implements ServletContextListener {
     public void contextDestroyed(ServletContextEvent sce) {
 
     }
-}*/
+}
