@@ -23,13 +23,13 @@ public class UserServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         try {
             // Using the UserDao class instance(object) to call(use) the methods to communicate with the database:
-            List<User> users = userDao.getAll();
-            ObjectMapper mapper = new ObjectMapper();
-            String json = mapper.writeValueAsString(users);
+            //List<User> users = userDao.getAll();
+            //ObjectMapper mapper = new ObjectMapper();
+            //String json = mapper.writeValueAsString(users);
 
             resp.setStatus(200);
-            //resp.getWriter().print("Hello World!");
-            resp.getWriter().print(json);
+            resp.getWriter().print("Hello World!");
+            //resp.getWriter().print(json);
         }catch(IOException ex) {
             resp.setStatus(500);
             System.out.println(ex.getLocalizedMessage());
